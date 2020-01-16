@@ -39,7 +39,7 @@ async def on_message(message):
 @client.event
 async def announcement(name, ID):
     channel = client.get_channel()
-    await channel.send(name + " is celebrating their cake day!!! <@" + str(ID) + "> " + "@everyone")
+    await channel.send(name + " is celebrating their cake day!!! <@" + str(ID) + "> ")
 
 
 
